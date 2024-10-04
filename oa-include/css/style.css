@@ -1,0 +1,204 @@
+@charset "UTF-8";
+body {
+  background-color: #008083;
+  color: #000000;
+  margin: 0;
+  padding: 0;
+  font-size: 18pt !important;
+}
+
+.sticky {
+  position: fixed;
+  top: 2;
+  margin-top: 1rem;
+  width: 100%;
+  /* Add any other styles you want for your navbar */
+}
+
+.profil-image {
+  width: 100%;
+  height: 100%;
+  border-radius: 1%;
+}
+
+h1 {
+  font-size: 1.125rem;
+  line-height: 1;
+}
+
+@media (max-width: 768px) {
+  h1 {
+    font-size: 1.625rem;
+  }
+}
+@media (max-width: 480px) {
+  h1 {
+    font-size: 1rem;
+  }
+  .mh {
+    display: none;
+  }
+}
+.pasive {
+  display: none;
+}
+
+.hover:hover {
+  cursor: pointer;
+}
+
+.modal {
+  display: none;
+  position: fixed;
+  z-index: 1;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  width: 110;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.focus {
+  outline: 1px dotted #000000;
+  outline-offset: -4px;
+}
+
+.menu {
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.menu a {
+  text-decoration: none;
+  flex-grow: 1;
+  text-align: center;
+  padding: 10px;
+  margin: 0.3rem;
+  cursor: pointer;
+  border: 1px solid #ffffff;
+  border-right-color: #808080;
+  border-bottom-color: #808080;
+  border-radius: 0.2rem;
+  color: #222;
+}
+
+.menu a:hover {
+  outline: 1px dotted #000000;
+  outline-offset: -4px;
+  background-color: #808080;
+}
+
+@media (max-width: 600px) {
+  .menu {
+    flex-direction: column;
+    display: none;
+  }
+  .menu a {
+    width: 100%;
+    margin: 0.1rem;
+  }
+}
+.window {
+  background-image: url("../../oa-include/images/assets/general-bg.png") !important;
+  background-repeat: no-repeat !important;
+}
+
+.skill-label {
+  display: inline-block;
+  width: 170px; /* Sabit genişlik */
+  text-align: right; /* Sağ hizalama */
+  margin-right: 10px; /* Label ile range arasında boşluk */
+}
+
+.personal-label {
+  display: inline-block;
+  width: 5rem; /* Sabit genişlik */
+  text-align: right; /* Sağ hizalama */
+  margin-right: 10px; /* Label ile range arasında boşluk */
+}
+
+.clippy {
+  position: fixed;
+  z-index: 999;
+  bottom: 1rem;
+  right: 1rem;
+  width: 350px;
+}
+.clippy img {
+  width: 100%;
+  height: 100%;
+}
+
+@media (max-width: 600px) {
+  .clippy {
+    display: none;
+  }
+}
+.ballon {
+  position: relative;
+  background-color: #f9f9f9;
+  border-radius: 10px;
+  padding: 20px;
+  width: 100%;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.ballon:before {
+  content: "";
+  position: absolute;
+  width: 0;
+  height: 0;
+  border-left: 10px solid transparent;
+  border-right: 30px solid transparent;
+  border-top: 20px solid #f9f9f9;
+  left: 60%;
+  bottom: -20px;
+  transform: translateX(-50%);
+}
+.ballon p {
+  line-height: 0.5;
+}
+
+/* Preloader ekranını tam ekran kaplama */
+#preloader {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #c0c0c0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  z-index: 9999;
+}
+
+#loader-text {
+  font-family: "Courier New", Courier, monospace;
+  color: #000;
+  margin-bottom: 20px;
+  font-size: 18px;
+}
+
+#progress-container {
+  width: 80%;
+  height: 20px;
+  background-color: #808080;
+  border: 2px solid #000;
+  display: flex;
+  align-items: center;
+}
+
+#progress-bar {
+  width: 0%;
+  height: 100%;
+  background-color: #008000;
+}
+
+/* Yüklenen sayfa içeriği */
+#content {
+  padding: 20px;
+  font-family: Arial, sans-serif;
+}/*# sourceMappingURL=style.css.map */

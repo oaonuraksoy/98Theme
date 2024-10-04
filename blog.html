@@ -1,0 +1,417 @@
+<!DOCTYPE html>
+<html lang=en>
+
+<head>
+    <meta charset=UTF-8>
+    <meta name=viewport content="width=device-width, initial-scale=1.0">
+    <title>Onur AKSOY - Web Developer</title>
+    <link rel=stylesheet href=oa-include/css/style.css>
+    <link rel=stylesheet href=oa-include/css/oa-grid.css>
+    <link rel=stylesheet href=oa-include/css/98.css>
+
+</head>
+
+<body>
+    <div id="preloader">
+        <div id="loader-text">Page Loading. Please Wait...</div>
+        <div id="progress-container">
+            <div id="progress-bar"></div>
+
+        </div>
+    </div>
+
+    <div id="myElement">
+        <div class="clippy">
+            <div class="window">
+                <div class="title-bar">
+                    <div class="title-bar-text"> Clippy.exe</div>
+                    <div class="title-bar-controls">
+                        <button aria-label=Close class=notranslate id="myButton"></button>
+                    </div>
+                </div>
+                <div class="window-body">
+                    <div class="ballon">
+                        <p> Hello, I'm Clippy!</p>
+                        <p> You're on Hackonomist's personal website.</p>
+                        <p> I hope you enjoy it.</p>
+                    </div>
+                    <img src="../../oa-include/images/assets/clippy.png" alt="">
+
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+
+
+
+    <!-- Menü -->
+    <div class=container>
+        <div class=window id=menuToggle>
+            <div class="title-bar hover">
+                <div class=title-bar-text>
+                    ☰ Navbar.exe</span>
+                </div>
+                <div class=title-bar-controls>
+                    <div class=gtranslate_wrapper></div>
+                </div>
+            </div>
+            <div class=window-body>
+                <div class="menu">
+
+                    <a href="/" class="focus">Anasayfa</a>
+
+                    <a href="portfolio">Portfolio</a>
+
+                    <a href="blog">Blog</a>
+
+                    <a href="contact">Contact</a>
+
+                </div>
+            </div>
+        </div>
+        <!-- Menü Sonu -->
+
+        <div class="window mt-1">
+            <div class=title-bar>
+                <div class=title-bar-text>
+                    Onur AKSOY <span class=mh>- A.K.A. Hackonomist</span>
+                </div>
+                <div class=title-bar-controls>
+                    <button aria-label=Help class=notranslate></button>
+                    <button aria-label=Close class=notranslate onclick=showModal()></button>
+                </div>
+            </div>
+            <div class=window-body>
+                <div class=row>
+                    <div class="col col-12 col-md-3">
+                        <div class="window mt-1">
+                            <div class=title-bar>
+                                <div class=title-bar-text> Photo-Viewer.exe</div>
+                                <div class=title-bar-controls>
+                                    <button aria-label=Help class=notranslate></button>
+                                    <button aria-label=Close class=notranslate></button>
+                                </div>
+                            </div>
+                            <div class=window-body>
+                                <img src=oa-include/images/onuraksoy2.jpg alt="Onur AKSOY" class=profil-image>
+                            </div>
+                        </div>
+                        <div class="window mt-1">
+                            <div class=title-bar>
+                                <div class=title-bar-text> Personal-Details.exe</div>
+                                <div class=title-bar-controls>
+                                    <button aria-label=Help class=notranslate></button>
+                                    <button aria-label=Close class=notranslate
+                                        onclick="this.parentNode.parentNode.parentNode.style.display='none'"></button>
+                                </div>
+                            </div>
+                            <div class=window-body>
+                                <fieldset>
+                                    <legend>Personal</legend>
+                                    <div class=field-row>
+                                        <label for=range1 class=personal-label>Name :</label>
+                                        <label for=range1>Onur AKSOY</label>
+                                    </div>
+                                    <div class=field-row>
+                                        <label for=range2 class=personal-label>Born :</label>
+                                        <label for=range2>1992</label>
+                                    </div>
+                                    <div class=field-row>
+                                        <label for=range3 class=personal-label>Location :</label>
+                                        <label for=range3>Ankara, Turkey</label>
+                                    </div>
+                                    <div class=field-row>
+                                        <label for=range4 class=personal-label>Phone :</label>
+                                        <label for=range4><a href="tel:+905511817053"
+                                                style="text-decoration:none; color:#222;">+90
+                                                (551) 181 - 7053</a></label>
+                                    </div>
+                                    <div class=field-row>
+                                        <label for=range4 class=personal-label>E-Mail :</label>
+                                        <label for=range4><a href="mailto:dev@onuraksoy.com.tr"
+                                                style="text-decoration:none; color:#222;">dev[@]onuraksoy.com.tr</a></label>
+                                    </div>
+                                    <div class=field-row>
+                                        <label for=range4 class=personal-label>Driving :</label>
+                                        <label for=range4>B</label>
+                                    </div>
+                                </fieldset>
+                                <fieldset>
+                                    <legend>Interest</legend>
+                                    <div class=field-row>
+                                        <ul>
+                                            <li>Film and Cinema</li>
+                                            <li>Mobile and Web Application Development</li>
+                                            <li>Analysis of New Technology Trends</li>
+                                            <li>Strategy Games and Game Mechanics</li>
+                                            <li>Social Media Trends and Strategies</li>
+                                            <li>Problem Solving and Critical Thinking Techniques</li>
+                                        </ul>
+
+                                    </div>
+                                </fieldset>
+                                <fieldset>
+                                    <legend>Language</legend>
+                                    <div class=field-row>
+                                        <ul>
+                                            <li>Turkish - Native</li>
+                                            <li>English - Intermediate</li>
+                                            <li>German - Beginner</li>
+                                    </div>
+                                </fieldset>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col col-12 col-md-9">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                        <div class="window mt-1">
+                            <div class="title-bar">
+                                <div class="title-bar-text"> Blog.exe</div>
+                                <div class="title-bar-controls">
+                                    <button aria-label=Help class=notranslate></button>
+                                    <button aria-label=Close class=notranslate></button>
+                                </div>
+                            </div>
+                            <div class="window-body">
+                                <div class="row">
+                                    <div class="col col-6 col-md-3">
+                                        <div class="window">
+                                            <div class="title-bar">
+                                                <div class="title-bar-text">Blog 1</div>
+                                            </div>
+                                            <div class="window-body">
+                                                <img src="https://picsum.photos/200" alt="Proje 1" class="profil-image">
+                                                <p>Blog 1 açıklama</p>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="col col-6 col-md-3">
+                                        <div class="window">
+                                            <div class="title-bar">
+                                                <div class="title-bar-text">Blog 2</div>
+                                            </div>
+                                            <div class="window-body">
+                                                <img src="https://picsum.photos/210" alt="Proje 1" class="profil-image">
+                                                <p>Blog 2 açıklama</p>
+                                            </div>
+                                        </div>
+                                    </div>
+
+
+                                </div>
+                            </div>
+
+                        </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                        <!-- loader -->
+                        <script>
+                            document.addEventListener("DOMContentLoaded", function () {
+                                let progressBar = document.getElementById('progress-bar');
+                                let preloader = document.getElementById('preloader');
+                                let content = document.getElementById('content');
+
+                                let progress = 0;
+
+                                // Progress bar'ı kademeli olarak dolduruyoruz, yükleme süreci tamamlana kadar
+                                let interval = setInterval(function () {
+                                    if (progress < 90) { // Sayfa yüklenirken max %90'a kadar doldur
+                                        progress += 1;
+                                        progressBar.style.width = progress + "%";
+                                    }
+                                }, 50);
+
+                                // window.onload sayfanın tamamen yüklendiğini gösterir
+                                window.onload = function () {
+                                    clearInterval(interval); // Progress bar simülasyonunu durdur
+                                    progress = 100;
+                                    progressBar.style.width = progress + "%"; // Yüzde 100'e çıkar
+
+                                    setTimeout(function () {
+                                        preloader.style.display = 'none'; // Preloader'ı kaldır
+                                        content.style.display = 'block'; // Sayfa içeriğini göster
+                                    }, 500); // Biraz gecikme ile içeriği göster
+                                };
+                            });
+                        </script>
+                        <!-- loader Sonu -->
+
+                        <script>
+                            // Çerez oluşturma
+                            function setCookie(name, value, days) {
+                                let expires = "";
+                                if (days) {
+                                    const date = new Date();
+                                    date.setTime(date.getTime() + (days * 24 * 60 * 60 * 1000));
+                                    expires = "; expires=" + date.toUTCString();
+                                }
+                                document.cookie = name + "=" + (value || "") + expires + "; path=/";
+                            }
+
+                            // Çerez okuma
+                            function getCookie(name) {
+                                const nameEQ = name + "=";
+                                const ca = document.cookie.split(';');
+                                for (let i = 0; i < ca.length; i++) {
+                                    let c = ca[i];
+                                    while (c.charAt(0) == ' ') c = c.substring(1, c.length);
+                                    if (c.indexOf(nameEQ) == 0) return c.substring(nameEQ.length, c.length);
+                                }
+                                return null;
+                            }
+                            document.addEventListener("DOMContentLoaded", function () {
+                                // Sayfa yüklendiğinde çerezi kontrol et
+                                if (getCookie('hideElement') === 'true') {
+                                    document.getElementById('myElement').style.display = 'none'; // Çereze göre gizle
+                                }
+
+                                // Butonun onclick olayını ayarla
+                                document.getElementById('myButton').onclick = function () {
+                                    // İlgili öğeyi gizle
+                                    this.parentNode.parentNode.parentNode.style.display = 'none';
+                                    // Çerezi oluştur (7 gün boyunca geçerli olacak)
+                                    setCookie('hideElement', 'true', 7);
+                                };
+                            });
+                        </script>
+                        <!-- çerez sonu -->
+
+
+                        <script>
+                            const closeButton = document.querySelector('.bb');
+                            if (window.innerWidth < 768) {
+                                closeButton.remove();
+                            }
+
+                            function showModal() {
+                                document.getElementById('closeModal').style.display = 'block';
+                            }
+
+                            function closeModal() {
+                                document.getElementById('closeModal').style.display = 'none';
+                            }
+
+                            function closePage() {
+                                window.close();
+                                setTimeout(function () {
+                                    alert(
+                                        "Tarayıcınız sayfanın otomatik olarak kapanmasına izin vermedi. Lütfen pencereyi manuel olarak kapatın."
+                                    );
+                                }, 1000);
+                            }
+                            let startTime = new Date().getTime();
+
+                            function updateUptime() {
+                                let currentTime = new Date().getTime();
+                                let uptime = Math.floor((currentTime - startTime) / 1000);
+                                let hours = Math.floor(uptime / 3600);
+                                let minutes = Math.floor((uptime % 3600) / 60);
+                                let seconds = uptime % 60;
+                                let uptimeString =
+                                    `${hours.toString().padStart(2, '0')}:${minutes.toString().padStart(2, '0')}:${seconds.toString().padStart(2, '0')}`;
+                                document.getElementById('uptime').textContent = uptimeString;
+                            }
+                            setInterval(updateUptime, 1000);
+                        </script>
+                        <script>
+                            function isMobileSize() {
+                                return window.matchMedia("(max-width: 768px)").matches;
+                            }
+
+                            function toggleMenu() {
+                                if (isMobileSize()) {
+                                    document.getElementById('menuToggle').addEventListener('click', function () {
+                                        var menu = document.querySelector('.menu');
+                                        if (menu.style.display === 'none' || menu.style.display === '') {
+                                            menu.style.display = 'flex';
+                                        } else {
+                                            menu.style.display = 'none';
+                                        }
+                                    });
+                                }
+                            }
+                            window.addEventListener('load', toggleMenu);
+                            window.addEventListener('resize', toggleMenu);
+                        </script>
+                        <script>
+                            window.gtranslateSettings = {
+                                "default_language": "en",
+                                "languages": ["en", "tr", "de"],
+                                "wrapper_selector": ".gtranslate_wrapper",
+                                "flag_size": 20
+                            }
+                        </script>
+                        <script src=https://cdn.gtranslate.net/widgets/latest/flags.js defer></script>
+                    </div>
+                </div>
+                <div id=closeModal class="modal window">
+                    <div class=title-bar>
+                        <div class=title-bar-text> Exit.exe</div>
+                        <div class=title-bar-controls>
+                            <button aria-label=Close class=notranslate
+                                onclick="this.parentNode.parentNode.parentNode.style.display='none'"></button>
+                        </div>
+                    </div>
+                    <div class=window-body>
+                        <p>Are you sure you want to close the page?</p>
+                        <p>You've been on this page for so long: </p>
+                        <p><span id=uptime></span></p>
+                        <section class=field-row style=justify-content:flex-end>
+                            <button onclick=closeModal()>Cancel</button>
+                            <button onclick=closePage()>OK!</button>
+                        </section>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <?php require("oa-content/pages-part/include.php")?>
+
+</body>
+
+</html>

@@ -1,0 +1,44 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Pixelify Sans", sans-serif;
+}
+
+html,
+body {
+  background-color: blue;
+  color: #ecf0f1;
+}
+
+.bluescreen .iScreen {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 750px;
+  text-align: center;
+}
+.bluescreen .iScreen .heading {
+  background-color: #aaaaaa;
+  color: blue;
+  padding: 0 1.3rem;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 26pt;
+  margin-bottom: 1rem !important;
+}
+.bluescreen .iScreen p {
+  text-align: left !important;
+  font-size: 18pt;
+}
+.bluescreen .iScreen p a {
+  color: #ecf0f1;
+}
+
+@media (max-width: 768px) {
+  .bluescreen .iScreen {
+    width: 90%;
+    font-size: 20pt;
+  }
+}/*# sourceMappingURL=404.css.map */
